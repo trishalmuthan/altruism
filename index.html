@@ -293,8 +293,8 @@
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
             <img src="assets/img/testimonials/azkanabi.jpg" class="testimonial-img" alt="">
-            <h3>Dr. Azka Nabi</h3>
-            <h4>MD, MRCPsych, MSc - 17 Year Physician</h4>
+            <h3>Dr. Azka Nabi MD</h3>
+            <h4>17 Year Physician</h4>
           </div>
 
           <div class="testimonial-item">
@@ -583,7 +583,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/f/xleozakg" method="POST" >
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -602,12 +602,13 @@
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center" ><button type="submit" style="
+                background-color: #5846f9;
+                border: 0;
+                padding: 10px 24px;
+                color: #fff;
+                transition: 0.4s;
+                border-radius: 5px;">Send Message</button></div>
             </form>
           </div>
 
@@ -656,14 +657,42 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <!--<div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
             <p>Enter your email address to subscribe to our newsletter!</p>
-            <form action="" method="post">
+            <form action="https://3mpower.us7.list-manage.com/subscribe/post?u=f729b0fc2edf2f69e0878f15f&amp;id=ed45e859a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <input type="email" name="email" placeholder="Email"><input type="submit" value="Subscribe">
             </form>
-          </div>
-
+          </div>-->
+          <!-- Begin Mailchimp Signup Form -->
+          <div id="mc_embed_signup" class="col-lg-4 col-md-6 ">
+            <form action="https://3mpower.us7.list-manage.com/subscribe/post?u=f729b0fc2edf2f69e0878f15f&amp;id=ed45e859a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <h4>Join Our Newsletter</h4>
+                  <p>Enter your email address to subscribe to our newsletter!</p>
+            <div class="indicates-required"><span class="asterisk"></span></div>
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email Address  <span class="asterisk"></span>
+            </label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f729b0fc2edf2f69e0878f15f_ed45e859a4" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="
+                  background-color: #5846f9;
+                  border: 0;
+                  padding: 10px 24px;
+                  color: #fff;
+                  transition: 0.4s;
+                  border-radius: 5px;"></div>
+                </div>
+            </form>
+            </div>
+  
+  <!--End mc_embed_signup-->
         </div>
       </div>
     </div>
