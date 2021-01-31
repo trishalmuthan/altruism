@@ -808,6 +808,45 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+/*ADDED OUTREACH SECTION*/
+.outreach {
+  padding-top: 0px;
+}
+
+.outreach .location-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s;
+  border: 1px solid #eef0ef;
+}
+
+.outreach .location-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.outreach .location-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.outreach .location-box h3 a {
+  color: #37423b;
+  transition: 0.3s;
+}
+
+.outreach .location-box:hover {
+  border-color: #fb9550;
+}
+
+.outreach .location-box:hover h3 a {
+  color: #fb9550;
+}
 
 /*--------------------------------------------------------------
 # Testimonials
